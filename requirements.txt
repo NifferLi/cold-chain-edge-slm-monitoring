@@ -1,0 +1,17 @@
+numpy
+pandas
+scikit-learn
+datasets
+huggingface_hub
+transformers>=4.44.0
+accelerate
+peft
+bitsandbytes
+torch
+sentence-transformers
+rouge-score
+tqdm
+psutil
+safetensors
+protobuf
+sentencepiece
