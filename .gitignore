@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local outputs
+outputs/
+*.csv
+*.xlsx
+*.parquet
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+
+# Model checkpoints / adapters
+qwen3_cold_chain_s3_driver_lora/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local environments
+.env
+.venv/
+venv/
+.DS_Store
+
+# Private/internal files
+do_not_upload/
